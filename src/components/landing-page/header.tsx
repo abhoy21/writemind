@@ -76,20 +76,20 @@ const Header = () => {
       <Link
         href={'/'}
         className="w-full flex gap-2
-        justify-left items-center"
+        justify-left items-center p-4"
       >
         <Image
           src={Logo}
           alt="WriteMind Logo"
-          width={25}
-          height={25}
+          width={45}
+          height={45}
         />
         <span
           className="font-semibold
-          dark:text-white
+          dark:text-white text-2xl pt-6 font-mono
         "
         >
-          WriteMind
+          WriteMind.
         </span>
       </Link>
       <NavigationMenu className="hidden md:block">

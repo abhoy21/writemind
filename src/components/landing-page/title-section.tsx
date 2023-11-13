@@ -35,7 +35,8 @@ const TitleSection: React.FC<TitleSectionProps> = ({
             className="rounded-full 
             px-3
             py-1
-            dark:bg-black"
+            dark:bg-black
+            "
           >
             {pill}
           </div>
@@ -49,6 +50,7 @@ const TitleSection: React.FC<TitleSectionProps> = ({
               sm:max-w-[750px]
               md:text-center
               font-semibold
+              text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500
             "
             >
               {title}

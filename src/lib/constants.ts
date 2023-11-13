@@ -125,8 +125,8 @@ export const PRICING_CARDS = [
   },
   {
     planType: 'Pro Plan',
-    price: '12.99',
-    description: 'Billed annually. $17 billed monthly',
+    price: '199.00',
+    description: 'Billed annually. ₹499 billed monthly',
     highlightFeature: 'Everything in free +',
     freatures: [
       'Unlimited blocks for teams',

@@ -103,12 +103,12 @@ const Signup = () => {
           <Image
             src={Logo}
             alt="WriteMind Logo"
-            width={50}
-            height={50}
+            width={75}
+            height={75}
           />
           <span
             className="font-semibold
-          dark:text-white text-4xl first-letter:ml-2"
+          dark:text-white text-5xl first-letter:ml-2"
           >
             WriteMind
           </span>
@@ -187,7 +187,7 @@ const Signup = () => {
           Already have an account?{' '}
           <Link
             href="/login"
-            className="text-primary"
+            className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-fuchsia-300"
           >
             Login
           </Link>

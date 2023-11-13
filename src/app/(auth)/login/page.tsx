@@ -65,14 +65,14 @@ const LoginPage = () => {
           <Image
             src={Logo}
             alt="WriteMind Logo"
-            width={50}
-            height={50}
+            width={75}
+            height={75}
           />
           <span
             className="font-semibold
-          dark:text-white text-4xl first-letter:ml-2"
+          dark:text-white text-5xl first-letter:ml-2"
           >
-            WriteMind
+            WriteMind.
           </span>
         </Link>
         <FormDescription
@@ -128,7 +128,7 @@ const LoginPage = () => {
           Dont have an account?{' '}
           <Link
             href="/signup"
-            className="text-primary"
+            className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-fuchsia-300"
           >
             Sign Up
           </Link>
